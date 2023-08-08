@@ -23,12 +23,13 @@ Thorough testing of the application has been conducted, including:
 - Unit tests for individual microservices.
 - End-to-end testing for user registration, login, and online user tracking.
 
+<img width="601" alt="Screenshot 2023-08-08 at 7 56 56 PM" src="https://github.com/AlagappanVeerappan32/GCP-Containerized-Microservices/assets/133504573/bcbc4a0c-e6ad-45b8-a835-1a2f83f68893">
+
 ### Technology Stack
 - Google Cloud Run: Deploy and manage containerized applications.
 - Firestore: Cloud-based NoSQL database for efficient data storage.
 - Docker: Containerization for easy deployment and scalability.
 - Artifact Registry: Repository for storing Docker container images.
-
 ---
 
 ## How to Use
