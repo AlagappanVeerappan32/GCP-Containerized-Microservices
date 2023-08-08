@@ -39,3 +39,5 @@ Thorough testing of the application has been conducted, including:
 4. Deploy the containerized microservices using Google Cloud Run.
 5. Access the web pages to interact with the application.
 6. Test the application thoroughly and ensure proper functionality.
+
+<img width="1024" alt="Screenshot 2023-08-08 at 7 12 54 PM" src="https://github.com/AlagappanVeerappan32/GCP-Containerized-Microservices/assets/133504573/cda63abc-82e4-49af-860f-1ea89f3b379d">
