@@ -33,7 +33,7 @@ Thorough testing of the application has been conducted, including:
 
 ## How to Use
 
-1. Clone this repository: `git clone <repository_url>`
+1. Clone this repository
 2. Explore and modify microservices code as needed.
 3. Build Docker images for each microservice and push them to GCP's Artifact Registry.
 4. Deploy the containerized microservices using Google Cloud Run.
