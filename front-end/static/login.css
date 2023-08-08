@@ -1,0 +1,53 @@
+/* login.css */
+
+body {
+    background-image: url('images/image2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+}
+
+form {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    /* Add this line to include padding within the width calculation */
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: #4CAF50;
+}

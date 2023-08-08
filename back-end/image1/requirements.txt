@@ -1,0 +1,5 @@
+Flask==2.3.2
+protobuf==3.20.3
+boto3==1.26.146
+botocore==1.29.146
+google-cloud-firestore

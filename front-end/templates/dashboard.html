@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='dashboard.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bleach: Thousand-Year Blood War</h1>
+        <div class="content">
+            <p>
+                Ichigo Kurosaki is an ordinary high schooler—until his family is attacked by a Hollow, a corrupt spirit
+                that
+                seeks to devour human souls. It is then that he meets a Soul Reaper named Rukia Kuchiki, who gets
+                injured while
+                protecting Ichigo's family from the assailant. To save his family, Ichigo accepts Rukia's offer of
+                taking her
+                powers and becomes a Soul Reaper as a result.
+            </p>
+            <p>
+                However, as Rukia is unable to regain her powers, Ichigo is given the daunting task of hunting down the
+                Hollows
+                that plague their town. However, he is not alone in his fight, as he is later joined by his
+                friends—classmates
+                Orihime Inoue, Yasutora Sado, and Uryuu Ishida—who each have their own unique abilities. As Ichigo and
+                his
+                comrades get used to their new duties and support each other on and off the battlefield, the young Soul
+                Reaper
+                soon learns that the Hollows are not the only real threat to the human world.
+            </p>
+            <div class="user-status">
+                <div class="status-circle"></div>
+                <span class="status-text">Online</span>
+            </div>
+        </div>
+        <form action="/logout" method="post">
+            <button type="submit">Logout</button>
+        </form>
+    </div>
+</body>
+
+</html>

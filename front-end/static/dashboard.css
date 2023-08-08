@@ -1,0 +1,67 @@
+/* dashboard.css */
+
+body {
+    background-image: url('images/image3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.content {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.logout-button {
+    position: absolute;
+    top: 10px;
+    right: 80px;
+}
+
+.logout-button a {
+    color: #fff;
+    background-color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.user-status {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.status-circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    margin-right: 5px;
+}
+
+.status-text {
+    display: inline-block;
+    color: green;
+    font-weight: bold;
+}
